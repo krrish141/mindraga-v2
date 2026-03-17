@@ -1,0 +1,149 @@
+/* Button Start */
+body{
+    background-color: #0B0616;
+}
+
+
+/* ==============================
+   Mind Download Button
+============================== */
+
+.btn-raga-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  display: inline-flex;
+  min-width: 162px;
+  /* padding: 3px  2px 3px 18px; */
+  align-items: center;
+  gap: 24px;
+
+  border-radius: 24px;
+  border: 1px solid #F1EAFF;
+  background: radial-gradient(73.3% 90.61% at 72.2% 11.84%, rgba(109, 58, 181, 0.45) 15.68%, rgba(187, 139, 255, 0.45) 40.7%, rgba(109, 58, 181, 0.42) 74.84%, rgba(187, 139, 255, 0.32) 100%), linear-gradient(0deg, #600CFF 0%, #600CFF 100%), #000;
+  box-shadow: 4px 8px 14px 0 rgba(141, 77, 255, 0.25);
+
+  color: #fff !important;
+
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Circle Icon */
+.btn-raga-primary .btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  border: 1px solid #6D3AB5;
+  background:  #FFF;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.btn-raga-primary:hover {
+  border-radius: 24px;
+border: 1px solid #000;
+background:  #FFF;
+color: #000 !important;
+font-weight: 600;
+box-shadow: 4px 8px 14px 0 rgba(209, 175, 255, 0.35);
+}
+
+.btn-raga-primary:hover .btn-icon {
+border-radius: 100px;
+border: 1px solid  #D1AFFF;
+background: radial-gradient(73.3% 90.61% at 72.2% 11.84%, rgba(148, 82, 255, 0.42) 15.68%, rgba(233, 213, 255, 0.45) 40.7%, rgba(148, 82, 255, 0.42) 74.84%, rgba(233, 213, 255, 0.32) 100%), #600CFF;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.32) inset;
+}
+
+.btn-raga-primary:hover .btn-icon img {
+  filter: brightness(0) invert(1);
+}
+
+
+
+/* Secondary Button */
+.btn-raga-secondary {
+  display: inline-flex;
+  min-width: 165px;
+  padding: 3px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  border-radius: 24px;
+  border: 1px solid transparent; /* important */
+
+  background:
+   linear-gradient(#090920, #090920) padding-box, linear-gradient(to bottom, #6D3AB5 30%, #6D3AB5 0%, #acacac 100%) border-box;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+
+/* Hover Effect */
+.btn-raga-secondary:hover {
+ box-shadow: 4px 8px 14px 0 rgba(209, 175, 255, 0.35);
+  font-weight: 600;
+}
+
+
+
+/* Tertiary Button */
+
+.btn-raga-tertiary {
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+
+border-radius: 100px;
+border: 1px solid  #D1AFFF;
+background: radial-gradient(73.3% 90.61% at 72.2% 11.84%, rgba(148, 82, 255, 0.42) 15.68%, rgba(233, 213, 255, 0.45) 40.7%, rgba(148, 82, 255, 0.42) 74.84%, rgba(233, 213, 255, 0.32) 100%), #600CFF;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-raga-tertiary img{
+  filter: brightness(0) invert(1);
+}
+
+
+/* Hover Effect */
+.btn-raga-tertiary:hover {
+border-radius: 100px;
+border: 1px solid #6D3AB5;
+background:  #FFF;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.10) inset;
+}
+
+.btn-raga-tertiary:hover img{
+    filter: none;
+}
+
+/* ===== Button Sizes ===== */
+
+
+/* Button End */

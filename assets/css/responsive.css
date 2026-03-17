@@ -1,0 +1,60 @@
+@media (max-width:1024px){
+
+:root{
+  --section-padding: 60px 40px;
+  --container-width: 100%;
+}
+
+}
+
+@media (max-width:768px){
+
+:root{
+  --section-padding: 50px 20px;
+  --container-width: 100%;
+}
+
+}
+
+@media (max-width: 768px) {
+  .d-none-md {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .d-none {
+    display: none;
+  }
+}
+
+
+@media(max-width:768px){
+.container{
+  width:100%;
+  padding: 0 10px !important;
+}
+}
+
+/* MOBILE: screens smaller than 768px */
+@media (max-width: 767px) {
+    .fs-12 { font-size: 10px; }
+    .fs-14 { font-size: 12px; }
+    .fs-16 { font-size: 14px; }
+    .fs-18 { font-size: 16px; }
+    .fs-20 { font-size: 18px; }
+    .fs-22 { font-size: 20px; }
+    .fs-24 { font-size: 22px; }
+    .fs-26 { font-size: 24px; }
+    .fs-28 { font-size: 26px; }
+    .fs-30 { font-size: 28px; }
+    .fs-32 { font-size: 30px; }
+    
+    /* Font weights usually remain same on mobile, but you can adjust if needed */
+    .fw-400 { font-weight: 400; }
+    .fw-500 { font-weight: 500; }
+    .fw-600 { font-weight: 600; }
+    .fw-700 { font-weight: 700; }
+    .fw-800 { font-weight: 800; }
+    .fw-900 { font-weight: 900; }
+}
