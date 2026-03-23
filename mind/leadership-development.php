@@ -67,12 +67,121 @@
             </div>
 
 
-          
+
 
         </div>
 
     </section>
     <!--Hero Section End  -->
+
+    <!-- Approach Section Start -->
+    <section class="section approach-section text-center ">
+        <span class="light-yellow-badge fs-16" data-aos="fade-up">Our Approach</span>
+
+        <p class=" fs-40 fw-600 " data-aos="fade-up" data-aos-delay="100">
+            Not training. <span class="blue"> Transformation </span>
+        </p>
+        <p class="w-70 fs-18 fw-500 mb-5  aos-init aos-animate">We work at the intersection of emotional intelligence, cognitive development, and organizational psychology,
+            helping leaders see their patterns, challenge their assumptions, and expand their range. </p>
+        <div class="row align-items-center">
+
+            <!-- CARD 1 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="approach-card">
+                    <img class="approach-bg-image" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
+                    <div class="approach-card-label">
+                        <div class="approach-card-header">
+                            <div class="approach-card-icon">
+                                <img src="https://www.svgrepo.com/show/533817/note.svg">
+                            </div>
+                            <p class="title fs-24">Start from the Inside </p>
+                        </div>
+                        <p class="approach-card-text fs-16">
+                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="approach-card">
+                    <img class="approach-bg-image" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
+                    <div class="approach-card-label">
+                        <div class="approach-card-header">
+                            <div class="approach-card-icon">
+                                <img src="https://www.svgrepo.com/show/533817/note.svg">
+                            </div>
+                            <p class="title fs-24">Bloom's Taxonomy, Applied </p>
+                        </div>
+                        <p class="approach-card-text fs-16">
+                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARD 3 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="approach-card">
+                    <img class="approach-bg-image" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
+                    <div class="approach-card-label">
+                        <div class="approach-card-header">
+                            <div class="approach-card-icon">
+                                <img src="https://www.svgrepo.com/show/533817/note.svg">
+                            </div>
+                            <p class="title fs-24">Psychologically Safe Spaces </p>
+                        </div>
+                        <p class="approach-card-text fs-16">
+                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="approach-card">
+                    <img class="approach-bg-image" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
+                    <div class="approach-card-label">
+                        <div class="approach-card-header">
+                            <div class="approach-card-icon">
+                                <img src="https://www.svgrepo.com/show/533817/note.svg">
+                            </div>
+                            <p class="title fs-24">Organizationally Grounded </p>
+                        </div>
+                        <p class="approach-card-text fs-16">
+                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="approach-card">
+                    <img class="approach-bg-image" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
+                    <div class="approach-card-label">
+                        <div class="approach-card-header">
+                            <div class="approach-card-icon">
+                                <img src="https://www.svgrepo.com/show/533817/note.svg">
+                            </div>
+                            <p class="title fs-24">Modular and Flexible </p>
+                        </div>
+                        <p class="approach-card-text fs-16">
+                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- Approach Section End -->
+
 
     <!-- Who This is For Start -->
     <section class=" section ">
@@ -82,7 +191,7 @@
             <h2 class="fs-40 fw-600" data-aos="fade-up" data-aos-delay="100">
                 Designed for leaders <span class="blue"> at every critical stage</span>
             </h2>
-            <p class="w-60 fs-18 fw-400 grey mb-5" data-aos="fade-up" data-aos-delay="200">
+            <p class="w-60 fs-18 fw-400 grey-5e6573mb-5" data-aos="fade-up" data-aos-delay="200">
                 Leadership development isn't one-size-fits-all. Our programs are calibrated to the specific developmental needs of leaders at different career inflection points.
             </p>
         </div>
@@ -226,30 +335,8 @@
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
-                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
-                    </div>
-                </div>
-
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-                    <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
-                        <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
-                        <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
-                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
-                    </div>
-                </div>
-
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-                    <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
-                        <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
-                        <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
@@ -259,30 +346,52 @@
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
+                        <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
+                        <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
@@ -296,35 +405,35 @@
 
             <div class="row">
 
-                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
@@ -343,30 +452,30 @@
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
@@ -380,35 +489,35 @@
 
             <div class="row">
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
                         <span class="program-card-tag fw-600 fs-12">Topic 10 </span>
                         <h3 class="fs-18 fw-500 mb-4">Understanding REBT — Beliefs, Emotions & Cognition </h3>
                         <p class="desc2 fs-14 fw-500">
-                           Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
-                        <hr >
+                            Recognize how beliefs influence emotions and behavior in professional contexts. Identify and reframe the belief systems driving leadership reactions.</p>
+                        <hr>
                         <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
@@ -421,19 +530,80 @@
     </section>
     <!--What We Do End  -->
 
+
+
+    <!-- Feature Section Start -->
+    <section class="feature-hero section">
+
+        <!-- STICKY CENTER TEXT -->
+        <div class="feature-center">
+            <p class="fs-56 text-white">Outcomes that show up at work. </p>
+        </div>
+
+        <!-- SCROLL AREA -->
+        <div class="feature-scroll">
+            <div class="feature-cards">
+
+                <div class="feature-card bg-yellow">
+                    <div >
+                        <img src="../assets/images/mind/icon/icon2.svg">
+                        <p class="fs-32" >Greater emotional composure under pressure</p>
+                        <p class="fs-16" >Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-blue">
+                    <div >
+                        <img src="../assets/images/mind/icon/icon.svg">
+                        <p class="fs-32 text-white" >Self-authored leadership identity</p>
+                        <p class="fs-16 text-white" >Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-yellow">
+                    <div >
+                        <img src="../assets/images/mind/icon/icon4.svg">
+                        <p class="fs-32">Improved capacity to lead change</p>
+                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-blue">
+                    <div >
+                        <img src="../assets/images/mind/icon/icon3.svg">
+                        <p class="fs-32 text-white">Systemic and first-principles thinking</p>
+                        <p class="fs-16 text-white">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div> 
+                </div>
+
+                <div class="feature-card bg-yellow">
+                    <div>
+                        <img src="../assets/images/mind/icon/icon2.svg">
+                        <p class="fs-32">Culture multiplier  effect</p>
+                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Feature Section End -->
+
+
     <section style="height: 40vh;background-color:#fff"></section>
 
 
     <!-- CTA Section Start -->
     <section class="cta-section section">
-        <div class="container w-70">
+        <div class="container w-70" data-aos="fade-up" data-aos-delay="100">
 
-            <p class="fs-24 fw-500 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <p class="fs-24 fw-500 mb-5">
                 Ready to build leaders who change everything?
             </p>
 
 
-            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
+            <div class="cta-buttons">
                 <a href="#" class="btn-mind-primary text-uppercase btn-md gap-10">
                     <span class="btn-text">Design Your Program</span>
                     <span class="btn-icon">
@@ -441,7 +611,7 @@
                     </span>
                 </a>
 
-                <a href="#" class="btn-mind-secondary text-uppercase btn-md" data-aos="fade-up" data-aos-delay="300">
+                <a href="#" class="btn-mind-secondary text-uppercase btn-md">
                     <span class="btn-text">View All Programs</span>
                 </a>
             </div>

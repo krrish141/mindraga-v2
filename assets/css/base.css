@@ -3,6 +3,9 @@
    Global Reset + Variables + Core Styles
 ================================ */
 
+
+
+
 /* ===== CSS RESET ===== */
 *,
 *::before,
@@ -38,7 +41,7 @@
 }
 
 .bg-yellow{
-  background-color: #FFF487 !important;
+  background-color: #FCE94D !important;
 }
 
 .bg-blue{
@@ -46,15 +49,23 @@
 }
 
 .dark{
-  color: #000;
+  color: #000 !important;
 }
 
-.grey {
-  color: #5E6573;
+.grey-5e6573{
+  color: #5E6573 !important;
 }
 
-.light-grey {
-  color: #7E8695;
+.grey-a3a3a3{
+    color: #A3A3A3;
+}
+
+.grey-737373{
+  color: #737373;
+}
+
+.grey-7e8695{
+  color: #7E8695 !important;
 }
 
 .blue {
@@ -62,7 +73,11 @@
 }
 
 
-
+.align-items-center {
+    display: flex;           /* make it a flex container */
+    align-items: center;     /* vertically center the items */
+    justify-content: center; /* horizontally center if needed */
+}
 
 /* ===== BODY ===== */
 body {
@@ -100,6 +115,7 @@ h6 {
 p {
   margin-bottom: 15px;
   color: var(--dark);
+  line-height: 160%;
 }
 
 a {
@@ -321,6 +337,10 @@ img {
 
 .fs-42 {
   font-size: 42px;
+}
+
+.fs-56{
+  font-size: 56px;
 }
 
 

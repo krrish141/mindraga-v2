@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mind</title>
+    <title>Mind | Building Conscious Leaders & High-Performance Cultures</title>
 
     <!-- Font Family -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -88,11 +88,11 @@
                 <!-- LEFT SIDE -->
                 <div class="stat-box">
                     <p class="stat-number fw-400 mb-3" data-aos="fade-up">70%</p>
-                    <p class="fs-32 mb-3" data-aos="fade-up" data-aos-delay="100">
+                    <p class="fs-32 mb-3 w-90 ms-0" data-aos="fade-up" data-aos-delay="100">
                         of <span class="blue">organizational change initiatives fail</span>,
                         the <span class="underline-dot"> primary cause ispeople and culture</span>, not strategy or technology.
                     </p>
-                    <span class="fs-14 light-grey" data-aos="fade-up" data-aos-delay="200">McKinsey & Company</span>
+                    <span class="fs-14 grey-7e8695" data-aos="fade-up" data-aos-delay="200">McKinsey & Company</span>
                 </div>
 
 
@@ -100,9 +100,9 @@
                 <div class="challenge-content">
                     <span class="yellow-badge fw-500 mb-4" data-aos="fade-up" data-aos-delay="800">The Challenge</span>
                     <p class="fs-24 fw-500" data-aos="fade-up" data-aos-delay="900">The world your people are navigating today.</p>
-                    <p class="fs-18 fw-500 light-grey" data-aos="fade-up" data-aos-delay="1000">
+                    <p class="fs-18 fw-500 grey-7e8695 w-90 ms-0" data-aos="fade-up" data-aos-delay="1000">
                         The organizations that outperform their peers don't just have better strategy,
-                        they have more human-ready people. In a VUCA world, emotional intelligence,
+                        they have more human-ready people. In a <span class="underline-dot"> VUCA world,</span> emotional intelligence,
                         psychological safety, and adaptive thinking are not optional HR programs.
                         They are strategic capabilities.
                     </p>
@@ -569,7 +569,7 @@
     <!--What We Do End  -->
 
 
-    <!-- <section style="height: 40vh;background-color:#fff"></section> -->
+    <section style="height: 40vh;background-color:#fff"></section>
 
 
     <!-- CTA Section Start -->

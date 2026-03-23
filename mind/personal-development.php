@@ -107,7 +107,7 @@
             <!-- Right Stats -->
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
-                <div class="challenge-v2-stat-card challenge-v2-highlight ">
+                <div class="challenge-v2-stat-card mb-4 ">
                     <p class="fs-40 fw-600 blue">76%</p>
                     <div class="challenge-v2-stat-text">
                         <p class="fs-18 dark">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="challenge-v2-stat-card">
+                <div class="challenge-v2-stat-card mb-4">
                     <p class="fs-40 fw-600 blue">2x</p>
                     <div class="challenge-v2-stat-text">
                         <p class="fs-18 dark">
@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="challenge-v2-stat-card">
+                <div class="challenge-v2-stat-card mb-4">
                     <p class="fs-40 fw-600 blue">58%</p>
                     <div class="challenge-v2-stat-text">
                         <p class="fs-18 dark">
@@ -166,7 +166,7 @@
         <!-- TOGGLE -->
         <div class="program-toggle" data-aos="fade-up" data-aos-delay="300">
 
-           <button class="toggle-btn active fs-18" onclick="showTab('first', this)">
+            <button class="toggle-btn active fs-18" onclick="showTab('first', this)">
                 <span class="radio"></span>
                 <img src="../assets/images/common/building-icon.svg" alt="Corporate Icon">
                 <span>For Corporates</span>
@@ -353,19 +353,79 @@
     </section>
     <!--What We Do End  -->
 
-     <section style="height: 40vh;background-color:#fff"></section>
+
+    <!-- Feature Section Start -->
+    <section class="feature-hero section">
+
+        <!-- STICKY CENTER TEXT -->
+        <div class="feature-center">
+            <p class="fs-56 text-white">Outcomes that show up at work. </p>
+        </div>
+
+        <!-- SCROLL AREA -->
+        <div class="feature-scroll">
+            <div class="feature-cards">
+
+                <div class="feature-card bg-yellow">
+                    <div>
+                        <img src="../assets/images/mind/icon/icon2.svg">
+                        <p class="fs-32">Greater emotional composure under pressure</p>
+                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-blue">
+                    <div>
+                        <img src="../assets/images/mind/icon/icon.svg">
+                        <p class="fs-32 text-white">Self-authored leadership identity</p>
+                        <p class="fs-16 text-white">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-yellow">
+                    <div>
+                        <img src="../assets/images/mind/icon/icon4.svg">
+                        <p class="fs-32">Improved capacity to lead change</p>
+                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-blue">
+                    <div>
+                        <img src="../assets/images/mind/icon/icon3.svg">
+                        <p class="fs-32 text-white">Systemic and first-principles thinking</p>
+                        <p class="fs-16 text-white">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+                <div class="feature-card bg-yellow">
+                    <div>
+                        <img src="../assets/images/mind/icon/icon2.svg">
+                        <p class="fs-32">Culture multiplier  effect</p>
+                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Feature Section End -->
+
+
+
 
 
     <!-- CTA Section Start -->
-    <section class="cta-section section">
-        <div class="container w-70">
+    <section class="cta-section section" style="z-index: 2; position: relative;">
+        <div class="container w-70"  data-aos="fade-up" data-aos-delay="100">
 
-            <p class="fs-24 fw-500 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <p class="fs-24 fw-500 mb-5" >
                 The best time to invest in your people was yesterday.
             </p>
 
 
-            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
+            <div class="cta-buttons" >
                 <a href="#" class="btn-mind-primary text-uppercase btn-md gap-10">
                     <span class="btn-text">Start a conversation</span>
                     <span class="btn-icon">
@@ -373,7 +433,7 @@
                     </span>
                 </a>
 
-                <a href="#" class="btn-mind-secondary text-uppercase btn-md" data-aos="fade-up" data-aos-delay="300">
+                <a href="#" class="btn-mind-secondary text-uppercase btn-md" >
                     <span class="btn-text">View All Programs</span>
                 </a>
             </div>

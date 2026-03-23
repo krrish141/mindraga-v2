@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mind</title>
+    <title>Contact Mind | Leadership & Transformation</title>
 
     <!-- Font Family -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -107,32 +107,32 @@
                             <div class="row g-4">
 
                                 <div class="col-md-6">
-                                    <label class="form-label grey fs-18">Full Name <span>*</span></label>
+                                    <label class="form-label grey-5e6573fs-18">Full Name <span>*</span></label>
                                     <input type="text" class="form-control" name="full_name" required>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label grey fs-18">Organization / School <span>*</span></label>
+                                    <label class="form-label grey-5e6573fs-18">Organization / School <span>*</span></label>
                                     <input type="text" class="form-control" name="organization" required>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label grey fs-18">Your Role / Designation <span>*</span></label>
+                                    <label class="form-label grey-5e6573fs-18">Your Role / Designation <span>*</span></label>
                                     <input type="text" class="form-control" name="role" required>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label grey fs-18">Phone Number <span>*</span></label>
+                                    <label class="form-label grey-5e6573fs-18">Phone Number <span>*</span></label>
                                     <input type="text" class="form-control" name="phone_number" required>
                                 </div>
 
                                 <div class="col-12">
-                                    <label class="form-label grey fs-18">Email Address <span>*</span></label>
+                                    <label class="form-label grey-5e6573fs-18">Email Address <span>*</span></label>
                                     <input type="email" class="form-control" name="email" required>
                                 </div>
 
                                 <div class="col-12">
-                                    <label class="form-label grey fs-18">
+                                    <label class="form-label grey-5e6573fs-18">
                                         You're Reaching Out About <span>*</span>
                                     </label>
 
@@ -146,13 +146,13 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <label class="form-label grey fs-18">Tell Us About Your Context</label>
+                                    <label class="form-label grey-5e6573fs-18">Tell Us About Your Context</label>
                                     <textarea class="form-control" rows="5" name="msg" required></textarea>
                                 </div>
 
                             </div>
 
-                            <p class="fs-14 fw-400 grey mt-3 mb-3">
+                            <p class="fs-14 fw-400 grey-5e6573mt-3 mb-3">
                                 No auto-responses. A real person from the Mind team reads every message.
                             </p>
 
