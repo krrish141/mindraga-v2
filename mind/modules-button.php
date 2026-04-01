@@ -15,14 +15,14 @@
 
 
 <a href="#" class="btn-mind-primary btn-md">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
   <span class="btn-icon">
     <img src="../assets/images/common/arrow-down-tray.svg">
   </span>
 </a>
 
 <a href="#" class="btn-mind-primary btn-lg">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
   <span class="btn-icon">
     <img src="../assets/images/common/arrow-down-tray.svg">
   </span>
@@ -33,11 +33,11 @@
 
 
 <a href="#" class="btn-mind-secondary btn-md fs-16">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
 </a>
 
 <a href="#" class="btn-mind-secondary btn-lg fs-16">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
 </a>
 
 <br>

@@ -159,6 +159,8 @@
   box-shadow: 0 10px 40px rgba(0,0,0,0.08);
 }
 </style>
+
+
 <script>
 const items = document.querySelectorAll(".timeline-item");
 

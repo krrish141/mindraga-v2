@@ -30,14 +30,14 @@
 
 
     <!-- Hero Section Start -->
-    <section class="hero ">
-        <div class="container hero-content">
+    <section class="section hero ">
+        <div class=" hero-content">
 
             <div class="hero-left">
 
-                <div class="hero-glass br-12">
+                <div class="hero-glass br-12 br-12">
                     <h2 data-aos="fade-up" data-aos-delay="100">
-                        The most important project you'll ever work on is yourself.
+                        The most important project you'll ever <span class="blue"> work on is yourself.</span>
                     </h2>
 
                     <p class="fs-18" data-aos="fade-up" data-aos-delay="200">
@@ -46,14 +46,14 @@
 
                     <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
                         <a href="#" class="btn-mind-primary text-uppercase btn-md gap-10">
-                            <span class="btn-text">Explore the Modules</span>
+                            <span class="btn-text fs-16">Explore the Modules</span>
                             <span class="btn-icon">
                                 <img src="../assets/images/common/arrow-down-tray.svg" alt="Icon">
                             </span>
                         </a>
 
                         <a href="#" class="btn-mind-secondary text-uppercase btn-md">
-                            <span class="btn-text">Talk to Us</span>
+                            <span class="btn-text fs-16">Talk to Us</span>
                         </a>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         <p class="fs-18 dark">
                             of job performance across all types of jobs is attributable to emotional intelligence, making it the single strongest predictor of performance.
                         </p>
-                        <span class="challenge-v2-author fs-12 grey">World Economic Forum</span>
+                        <span class="challenge-v2-author fs-12 grey">World Economic Forum Future of Jobs Report </span>
                     </div>
                 </div>
 
@@ -147,18 +147,18 @@
 
 
 
-    <!-- What We Do Start -->
+    <!-- The Modules Start -->
     <section class="program-section section ">
 
         <div class=" text-center">
-            <span class="light-yellow-badge fs-16" data-aos="fade-up">What We Do</span>
+            <span class="light-yellow-badge fs-16" data-aos="fade-up">The Modules</span>
 
             <h2 class="fs-40 fw-600" data-aos="fade-up" data-aos-delay="100">
-                Designed for real impact across two ecosystems
+               Each module, a doorway inward.
+
             </h2>
             <p class="w-60 fs-18 fw-400 grey" data-aos="fade-up" data-aos-delay="200">
-                We work with the organizations shaping today's professionals, and the schools shaping tomorrow's.
-                Every program is contextually designed, facilitator-led, and outcomes-tracked
+                Our personal development modules draw from psychology, behavioral science, and organizational development. Filter by what matters most to your people right now.
             </p>
         </div>
 
@@ -168,101 +168,66 @@
 
             <button class="toggle-btn active fs-18" onclick="showTab('first', this)">
                 <span class="radio"></span>
-                <img src="../assets/images/common/building-icon.svg" alt="Corporate Icon">
-                <span>For Corporates</span>
+                <span>Emotional</span>
             </button>
+
 
             <button class="toggle-btn fs-18" onclick="showTab('second', this)">
                 <span class="radio"></span>
-                <img src="../assets/images/common/building-icon.svg" alt="School Icon">
-                <span>For Schools</span>
+                <span>Cognitive</span>
+            </button>
+
+
+            <button class="toggle-btn fs-18" onclick="showTab('third', this)">
+                <span class="radio"></span>
+                <span>Identity</span>
+            </button>
+
+
+            <button class="toggle-btn fs-18" onclick="showTab('fourth', this)">
+                <span class="radio"></span>
+                <span>Habits</span>
             </button>
 
         </div>
 
-        <!-- CORPORATE PROGRAMS -->
+        <hr class="mb-5 dot">
+
+        <!-- First PROGRAMS -->
         <div id="first" class="fade-up">
 
-            <div class="row" style="gap:25px 0px">
+            <div class="row mt-5" >
 
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Personal Development </span>
-                        <h3 class="fs-18 fw-500">Individual Growth & Emotional Intelligence </h3>
-                        <p class="desc fs-12 fw-500">
-                            Programs focused on self-awareness, emotional regulation, stress resilience, and personal effectiveness, grounded in EI assessments, REBT, mindfulness, and evidence-based habit design. </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black fs-14">Topics Include</p>
-                            <div class="topics fs-12 fw-500">
-                                <span>Emotion Regulation </span>
-                                <span> Immunity to Change </span>
-                                <span>Simple Habits </span>
-                                <span>Designing the Mind </span>
-                                <span>REBT Frameworks </span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
-                        </div>
+                        <span class="program-card-tag fw-600 fs-12">Topic 06 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Overcoming Emotional Gaps </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Strengthen emotional awareness to reduce reactive behavior and build self-regulation. Understand your personal emotional triggers and create strategies for emotional alignment at work. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Interpersonal Development </span>
-                        <h3 class="fs-18 fw-500">Communication, Conflict & Collaboration </h3>
-                        <p class="desc fs-12 fw-500">
-                            Building stronger relationships & communication across all levels, from empathetic listening, conflict navigation to cultural competency, team cohesion, and the 7 organizational languages that shape culture.
-                        </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black fs-14">Topics Include</p>
-                            <div class="topics fs-12 fw-500">
-                                <span>Seven Languages of transformation </span>
-                                <span>Science of Storytelling </span>
-                                <span>How to Lead Others </span>
-                                <span>Conflict Navigation </span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
-                        </div>
+                        <span class="program-card-tag fw-600 fs-12">Topic 22 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Emotion Regulation </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Build the capacity to regulate emotions under pressure — not by suppressing them, but by understanding their mechanics. Create personal protocols for managing high-intensity situations with composure. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12"> Organizational Training </span>
-                        <h3 class="fs-18 fw-500">Culture, Change & Systemic EI </h3>
-                        <p class="desc fs-12 fw-500">
-                            System-wide interventions that build emotionally intelligent workplace cultures, covering culture transformation, change management, employee engagement and retention strategies, DEI program development, and sustained wellbeing initiatives.
-                        </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black fs-14">Topics Include</p>
-                            <div class="topics fs-12 fw-500">
-                                <span>Deliberately Developmental Orgs </span>
-                                <span>Systems Thinking </span>
-                                <span>Theory U </span>
-                                <span>Changing World Orders </span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="400">
-                    <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Leadership Development </span>
-                        <h3 class="fs-18 fw-500">Leadership Excellence & Executive Coaching </h3>
-                        <p class="desc fs-12 fw-500">
-                            Comprehensive programs for current and emerging leaders, combining EI assessments, authentic leadership, executive coaching, identity development, and strategic thinking with emotional consideration. From manager to leader, and leader to leader of leaders.
-                        </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black fs-14">Topics Include</p>
-                            <div class="topics fs-12 fw-500">
-                                <span>Start With Why </span>
-                                <span>Identity Development </span>
-                                <span>First Principles Thinking </span>
-                                <span>Leadership & Psyche </span>
-                                <span>A Way of Being </span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
-                        </div>
+                        <span class="program-card-tag fw-600 fs-12">Topic 30 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> How Emotions Are Made </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Understand emotions as constructed experiences, not fixed reactions to external events. Build emotional literacy and develop adaptive responses rather than being controlled by unconscious emotional patterns. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
@@ -270,79 +235,142 @@
 
         </div>
 
-        <!-- SCHOOL PROGRAMS -->
+        <!-- Second PROGRAMS -->
         <div id="second" class="hidden fade-up">
 
-            <div class="row">
+             <div class="row mt-5" >
 
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Curriculum</span>
-                        <h3 class="fs-18 fw-500">SEL Curriculum Design</h3>
-                        <p class="desc fs-12 fw-500">
-                            Culturally sensitive, age-appropriate SEL curricula that integrate seamlessly with existing academic
-                            frameworks, aligned to NEP 2020 and CASEL standards. Includes needs assessment, customization for
-                            diverse learning styles, and measurement tools to track SEL competency growth.
-                        </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black">Focus Areas</p>
-                            <div class="topics fs-12 fw-500">
-                                <span>Self-Awareness</span>
-                                <span>Self-Management</span>
-                                <span>Social Awareness</span>
-                                <span>Relationship Skills</span>
-                                <span>Decision-Making</span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Enquire </a>
-                        </div>
+                        <span class="program-card-tag fw-600 fs-12">Topic 05 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Understanding REBT — Beliefs, Emotions & Cognition </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Recognize how beliefs shape emotions and behavior in professional life. Identify the belief systems that drive your reactions — and apply cognitive reframing to change your responses from the inside. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-
-
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Facilitation</span>
-                        <h3 class="fs-18 fw-500">SEL Program Facilitation</h3>
-                        <p class="desc fs-12 fw-500">
-                            Expert facilitators delivering engaging, interactive SEL programs directly to students, ensuring consistent, high-quality implementation. Age-appropriate activities, small group and whole-class interventions, and regular progress monitoring. Minimum 8–12 session cohorts for sustained, measurable impact.
-                        </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black">Program Formats</p>
-
-                            <div class="topics fs-12 fw-500">
-                                <span>Group Sessions</span>
-                                <span>Whole-Class</span>
-                                <span>Small Cohorts</span>
-                                <span>Intensives</span>
-                                <span>Annual Support</span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Enquire →</a>
-                        </div>
+                        <span class="program-card-tag fw-600 fs-12">Topic 07 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Overcoming Attitude Gaps </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Develop the ability to recognize and shift limiting attitudes that affect your performance and relationships. Analyze how your attitudes influence outcomes and create conscious attitude shifts aligned with your goals. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
-
-
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
-                        <span class="program-card-tag fw-600 fs-12">Capacity Building</span>
-                        <h3 class="fs-18 fw-500">SEL Facilitator Training</h3>
-                        <p class="desc fs-12 fw-500">
-                            Empowering teachers with the knowledge, skills, and ongoing support to sustain SEL programs long after our engagement ends. Professional development workshops, coaching, resource development, train-the-trainer programs, and certification for advanced practitioners.
-                        </p>
-                        <div class="program-card-bottom">
-                            <p class="text-black">Training Includes</p>
+                        <span class="program-card-tag fw-600 fs-12">Topic 08 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Overcoming Cognitive Gaps </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Enhance thinking clarity by identifying your personal blind spots, cognitive biases, and reasoning limitations. Build improved thinking frameworks that reduce decision errors and expand your mental range. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
 
-                            <div class="topics fs-12 fw-500">
-                                <span>PD Workshops</span>
-                                <span>1-on-1 Coaching</span>
-                                <span>Train-the-Trainer</span>
-                                <span>Certification</span>
-                                <span>Resource Library</span>
-                            </div>
-                            <a href="#" class="explore fs-18 fw-500">Enquire →</a>
-                        </div>
+            </div>
+
+        </div>
+
+        <!-- Third PROGRAMS -->
+        <div id="third" class="hidden  fade-up">
+
+             <div class="row mt-5" >
+
+
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 01 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Start With Why </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Identify, articulate, and align your personal purpose with your professional life. Use the Why–How–What framework to clarify what truly motivates you and create a purpose narrative that drives sustainable performance. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 15 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Reinventing Your Life </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Encourage intentional life and career redesign through reflection and choice. Identify outdated narratives holding you in place, align values with actions, and create a conscious reinvention roadmap for where you want to be. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 18 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Attitude Reconstruction </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Enable conscious reframing of the attitudes that limit growth. Understand how attitudes form, identify the dysfunctional ones silently shaping your behavior, and build adaptive attitudes aligned with your goals. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 29 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> A Way of Being </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Develop presence, authenticity, and integrity in your professional life. Identify the incongruences between your stated values and your actual behavior — and create a more aligned way of working and showing up. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Fourth PROGRAMS -->
+        <div id="fourth" class="hidden fade-up">
+
+            <div class="row mt-5" >
+
+
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 16 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Simple Habits for Complex Times </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Build small, consistent habits that create stability and sustain performance. Apply the science of habit formation to design routines that work even when motivation is low the foundation of sustainable high performance. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 19 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Insights — Reflective Intelligence </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Strengthen the capacity for reflection, insight, and learning from experience. Build the reflective intelligence that separates people who grow from experience from those who merely accumulate it. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="program-card">
+                        <span class="program-card-tag fw-600 fs-12">Topic 14 </span>
+                        <h3 class="fs-18 fw-500 mb-4"> Changing on the Job </h3>
+                        <p class="desc2 fs-14 fw-500">
+                            Enable continuous personal growth without stepping away from work responsibilities. Build learning-in-action practices and design personal development loops that operate within — not apart from — your daily professional life. </p>
+                        <hr>
+                        <p class="session fs-12 mt-3 mb-0">4 Sessions | 8 Hours</p>
                     </div>
                 </div>
 
@@ -351,15 +379,15 @@
         </div>
 
     </section>
-    <!--What We Do End  -->
+    <!--The Modules End  -->
 
 
-    <!-- Feature Section Start -->
+    <!-- What You Build Start -->
     <section class="feature-hero section">
 
         <!-- STICKY CENTER TEXT -->
         <div class="feature-center">
-            <p class="fs-56 text-white">Outcomes that show up at work. </p>
+            <p class="fs-56 text-white">Capabilities that last beyond the program. </p>
         </div>
 
         <!-- SCROLL AREA -->
@@ -369,40 +397,32 @@
                 <div class="feature-card bg-yellow">
                     <div>
                         <img src="../assets/images/mind/icon/icon2.svg">
-                        <p class="fs-32">Greater emotional composure under pressure</p>
-                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                        <p class="fs-32">A map of your belief patterns </p>
+                        <p class="fs-16">Clear visibility into the assumptions and narratives you carry about yourself, others, and work and the freedom that comes from choosing which ones to keep. </p>
                     </div>
                 </div>
 
                 <div class="feature-card bg-blue">
                     <div>
                         <img src="../assets/images/mind/icon/icon.svg">
-                        <p class="fs-32 text-white">Self-authored leadership identity</p>
-                        <p class="fs-16 text-white">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                        <p class="fs-32 text-white">Clarity on purpose and identity </p>
+                        <p class="fs-16 text-white">A grounded sense of who you are beneath the role, and how your work connects to what genuinely matters to you. The foundation of both fulfilment and sustained performance. </p>
                     </div>
                 </div>
 
                 <div class="feature-card bg-yellow">
                     <div>
                         <img src="../assets/images/mind/icon/icon4.svg">
-                        <p class="fs-32">Improved capacity to lead change</p>
-                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                        <p class="fs-32">The ability to self-correct in real time </p>
+                        <p class="fs-16">The reflective intelligence to notice when you're off-track: emotionally, cognitively, or behaviorally and course-correct without needing external intervention. </p>
                     </div>
                 </div>
 
                 <div class="feature-card bg-blue">
                     <div>
                         <img src="../assets/images/mind/icon/icon3.svg">
-                        <p class="fs-32 text-white">Systemic and first-principles thinking</p>
-                        <p class="fs-16 text-white">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
-                    </div>
-                </div>
-
-                <div class="feature-card bg-yellow">
-                    <div>
-                        <img src="../assets/images/mind/icon/icon2.svg">
-                        <p class="fs-32">Culture multiplier  effect</p>
-                        <p class="fs-16">Leaders who regulate rather than react in high-stakes situations, improving both decision quality and team culture. </p>
+                        <p class="fs-32 text-white">Better relationships at every level </p>
+                        <p class="fs-16 text-white">When you understand yourself more deeply, you understand others better too. Participants consistently report improvements in their professional and personal relationships within weeks. </p>
                     </div>
                 </div>
 
@@ -410,31 +430,29 @@
         </div>
 
     </section>
-    <!-- Feature Section End -->
-
-
+    <!-- What You Build End -->
 
 
 
     <!-- CTA Section Start -->
     <section class="cta-section section" style="z-index: 2; position: relative;">
-        <div class="container w-70"  data-aos="fade-up" data-aos-delay="100">
+        <div class="container w-70" data-aos="fade-up" data-aos-delay="100">
 
-            <p class="fs-24 fw-500 mb-5" >
+            <p class="fs-24 fw-500 mb-5">
                 The best time to invest in your people was yesterday.
             </p>
 
 
-            <div class="cta-buttons" >
+            <div class="cta-buttons">
                 <a href="#" class="btn-mind-primary text-uppercase btn-md gap-10">
-                    <span class="btn-text">Start a conversation</span>
+                    <span class="btn-text fs-16">Start a conversation</span>
                     <span class="btn-icon">
                         <img src="../assets/images/common/arrow-down-tray.svg" alt="icon">
                     </span>
                 </a>
 
-                <a href="#" class="btn-mind-secondary text-uppercase btn-md" >
-                    <span class="btn-text">View All Programs</span>
+                <a href="#" class="btn-mind-secondary text-uppercase btn-md">
+                    <span class="btn-text fs-16">View All Programs</span>
                 </a>
             </div>
         </div>

@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 8px 0px;
+    padding: 8px 80px;
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -62,7 +62,7 @@
 
     padding: 24px 0px;
     border: 0.8px solid #D2D5DA;
-    background: rgba(255, 255, 255, 0.45);
+    background: rgb(255 255 255);
     backdrop-filter: blur(12px);
   }
 
@@ -104,6 +104,10 @@
       display: block;
     }
 
+    .main-header {
+      padding: 8px;
+    }
+
     .nav-menu {
       position: absolute;
       top: 70px;
@@ -131,50 +135,50 @@
 </style>
 
 
-
 <header class="main-header">
   <div class="container header-wrapper">
 
     <!-- LEFT LOGO -->
-    <div class="logo">
-      <img src="../assets/images/common/logo-black.png" alt="MindRaga">
-    </div>
+<div class="logo">
+  <a href="index.php">
+    <img src="../assets/images/common/logo-black.png" alt="MindRaga">
+  </a>
+</div>
 
     <!-- RIGHT MENU -->
     <nav class="nav-menu" id="navMenu">
 
-      <a href="#">About Us</a>
+      <a href="./who-we-are.php">Who We Are</a>
 
-      <!-- DROPDOWN -->
       <div class="dropdown">
         <a href="#" class="dropdown-toggle">For Corporates <i class="fas fa-angle-down"></i></a>
 
         <div class="dropdown-menu">
-          <a href="#">Employee Wellness</a>
-          <a href="#">Workshops</a>
-          <a href="#">Leadership Programs</a>
+          <a href="./leadership-development.php">Leadership Development </a>
+          <a href="./personal-development.php">Personal Development</a>
+          <a href="./organizational-development.php"> Organizational Development</a>
+          <a href="./interpersonal-development.php"> Interpersonal Development</a>
         </div>
       </div>
 
-      <!-- DROPDOWN -->
       <div class="dropdown">
         <a href="#" class="dropdown-toggle">For School <i class="fas fa-angle-down"></i></a>
 
         <div class="dropdown-menu">
-          <a href="#">Employee Wellness</a>
-          <a href="#">Workshops</a>
-          <a href="#">Leadership Programs</a>
+          <a href="./curriculum-design-services.php">Curriculum Design Services  </a>
+          <a href="./facilitator-program.php">Facilitator Program </a>
+          <a href="./sel-for-students.php">SEL Program for Students </a>
         </div>
       </div>
 
-      <a href="#" class="btn-mind-primary btn-md d-none-md h-44">
-        <span class="btn-text">CONTACT US</span>
+      <a href="./contact.php" class="btn-mind-primary btn-md d-none-md h-44">
+        <span class="btn-text fs-16">CONTACT US</span>
         <span class="btn-icon">
           <img src="../assets/images/common/arrow-right.svg" alt="icon">
         </span>
       </a>
 
-      <a href="#" class="d-none">Contact Us</a>
+      <a href="./contact.php" class="d-none">Contact Us</a>
 
     </nav>
 

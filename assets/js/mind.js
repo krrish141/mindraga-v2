@@ -91,3 +91,76 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const items = document.querySelectorAll(".timeline-item");
+
+    function handleOverlap() {
+        items.forEach((item, index) => {
+            if (index === items.length - 1) return;
+
+            const current = item.getBoundingClientRect();
+            const next = items[index + 1].getBoundingClientRect();
+
+            const phase = item.querySelector(".phase");
+
+            if (next.top <= current.bottom - 100) {
+                phase.style.opacity = "0.1";
+            } else {
+                phase.style.opacity = "1";
+            }
+        });
+    }
+
+    window.addEventListener("scroll", handleOverlap);
+    window.addEventListener("load", handleOverlap);
+
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const cards = document.querySelectorAll(".conversation-card");
+    const wrapper = document.querySelector(".conversation-wrapper");
+
+    if (!wrapper) return; // safety (agar page me section na ho)
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+                runSequence();
+            } else {
+                // reset
+                cards.forEach(card => {
+                    card.classList.remove("show");
+                });
+            }
+
+        });
+    }, {
+        threshold: 0.3
+    });
+
+    observer.observe(wrapper);
+
+    // 🔥 SEQUENTIAL FLOW
+    async function runSequence() {
+        for (let card of cards) {
+            await animateCard(card);
+        }
+    }
+
+    function animateCard(card) {
+        return new Promise(resolve => {
+            card.classList.add("show");
+
+            setTimeout(() => {
+                resolve();
+            }, 1000);
+        });
+    }
+
+});

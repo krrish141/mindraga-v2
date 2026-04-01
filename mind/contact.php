@@ -157,7 +157,7 @@
                             </p>
 
                             <button class="btn-mind-primary text-uppercase btn-md h-50 gap-10">
-                                <span class="btn-text">SEND MESSAGE</span>
+                                <span class="btn-text fs-16">SEND MESSAGE</span>
                                 <span class="btn-icon">
                                     <img src="../assets/images/common/arrow-right.svg" alt="arrow icon">
                                 </span>

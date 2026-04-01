@@ -28,14 +28,13 @@
 <body>
     <?php include('header.php') ?>
 
-
     <!-- Hero Section Start -->
-    <section class="hero ">
-        <div class="container hero-content">
+    <section class="section hero">
+        <div class=" hero-content">
 
             <div class="hero-left">
 
-                <div class="hero-glass">
+                <div class="hero-glass br-12">
                     <h2 data-aos="fade-up" data-aos-delay="100">
                         Mind builds the <span class="blue"> <span class="underline-dot">
                                 emotional infrastructure
@@ -43,27 +42,23 @@
                             performance.</span>
                     </h2>
 
-                    <p class="fs-18" data-aos="fade-up" data-aos-delay="200">
+                    <p class="fs-18 w-90 ms-0" data-aos="fade-up" data-aos-delay="200">
                         We partner with <span class="blue"> organizations </span> and <span class="blue"> schools</span> to develop emotionally intelligent, resilient, and high-performing people, through evidence-based, experientially delivered programs.
                     </p>
 
                     <div class="hero-buttons" data-aos="fade-up" data-aos-delay="300">
                         <a href="#" class="btn-mind-primary text-uppercase btn-md gap-10">
-                            <span class="btn-text">Explore our Programs</span>
+                            <span class="btn-text fs-16">Explore our Programs</span>
                             <span class="btn-icon">
                                 <img src="../assets/images/common/arrow-down-tray.svg">
                             </span>
                         </a>
 
                         <a href="#" class="btn-mind-secondary text-uppercase btn-md">
-                            <span class="btn-text">Partner with us</span>
+                            <span class="btn-text fs-16">Partner with us</span>
                         </a>
                     </div>
                 </div>
-
-                <!-- Buttons -->
-
-
             </div>
 
 
@@ -75,12 +70,10 @@
             </div>
 
         </div>
-
     </section>
     <!--Hero Section End  -->
 
-
-    <!-- Challenge Section Start -->
+     <!-- Challenge Section Start -->
     <div class="challenge-wrapper">
         <section class="section challenge-section" style="padding-bottom: 0px;">
             <div class="top-row">
@@ -90,9 +83,9 @@
                     <p class="stat-number fw-400 mb-3" data-aos="fade-up">70%</p>
                     <p class="fs-32 mb-3 w-90 ms-0" data-aos="fade-up" data-aos-delay="100">
                         of <span class="blue">organizational change initiatives fail</span>,
-                        the <span class="underline-dot"> primary cause ispeople and culture</span>, not strategy or technology.
+                        the <span class="underline-dot"> primary cause is people and culture</span>, not strategy or technology.
                     </p>
-                    <span class="fs-14 grey-7e8695" data-aos="fade-up" data-aos-delay="200">McKinsey & Company</span>
+                    <span class="fs-14 grey-a3a3a3" data-aos="fade-up" data-aos-delay="200">McKinsey & Company</span>
                 </div>
 
 
@@ -130,27 +123,27 @@
             <div class="vuca-cards">
 
                 <div class="vuca-card" data-aos="fade-left" data-aos-delay="100">
-                    <h3 class="alpha fs-42">V</h3>
-                    <h4 class="fs-18">Volatile</h4>
+                    <h3 class="alpha fs-40">V</h3>
+                    <h4 class="fs-18 fw-400">Volatile</h4>
                     <p class="fs-14">Markets shift faster than plans can adapt. Orgs that thrive build people who move with confidence.</p>
                 </div>
 
                 <div class="vuca-card" data-aos="fade-left" data-aos-delay="200">
-                    <h3 class="alpha fs-42">U</h3>
-                    <h4 class="fs-18">Uncertain</h4>
+                    <h3 class="alpha fs-40">U</h3>
+                    <h4 class="fs-18 fw-400">Uncertain</h4>
                     <p class="fs-14">Predictability has collapsed. The new leadership skill is operating clearly and calmly through fog.</p>
                 </div>
 
                 <div class="vuca-card" data-aos="fade-left" data-aos-delay="300">
-                    <h3 class="alpha fs-42">C</h3>
-                    <h4 class="fs-18">Complex</h4>
+                    <h3 class="alpha fs-40">C</h3>
+                    <h4 class="fs-18 fw-400">Complex</h4>
                     <p class="fs-14">Multi-stakeholder challenges demand systems thinking, perspective-taking, and integrative judgment under pressure.</p>
                 </div>
 
                 <div class="vuca-card" data-aos="fade-left" data-aos-delay="400">
-                    <h3 class="alpha fs-42">A</h3>
-                    <h4 class="fs-18">Ambiguous</h4>
-                    <p class="fs-14">Old playbooks don't fit new problems. Organizations need people who can act with conviction.</p>
+                    <h3 class="alpha fs-40">A</h3>
+                    <h4 class="fs-18 fw-400">Ambiguous</h4>
+                    <p class="fs-14">Old playbooks don't fit new problems. Organizations need people who can act with conviction on incomplete information, and course-correct with agility and grace. </p>
                 </div>
 
             </div>
@@ -158,10 +151,7 @@
         </div>
 
     </div>
-
-
     <!-- Challenge Section End -->
-
 
     <!-- Vision Section Start -->
     <section class="section">
@@ -204,6 +194,7 @@
     <!-- Vision Section End -->
 
 
+    
     <!-- Our Reach Start-->
     <section class="reach-section section text-center">
 
@@ -289,8 +280,7 @@
     </section>
     <!-- Our Partner End -->
 
-
-    <!-- Approach Section Start -->
+       <!-- Approach Section Start -->
     <section class="section approach-section text-center">
         <span class="light-yellow-badge fs-16" data-aos="fade-up">Our Approach</span>
 
@@ -311,7 +301,7 @@
                             <p class="title fs-24">Narrative Practice</p>
                         </div>
                         <p class="approach-card-text fs-16">
-                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                            We anchor learning in lived experience. Participants bring their real challenges into the room and leave with new language and frameworks for navigating them. Through the science of storytelling, people re-author limiting narratives and step into new ways of leading.
                         </p>
                     </div>
                 </div>
@@ -329,7 +319,7 @@
                             <p class="title fs-24">Mindfulness & Inner Work</p>
                         </div>
                         <p class="approach-card-text fs-16">
-                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                            Practical, secular mindfulness tools drawn from neuroscience and REBT, designed to reduce reactive decision-making, close emotional and cognitive gaps, and increase self-regulation under pressure. Present-moment awareness as a concrete leadership skill.
                         </p>
                     </div>
                 </div>
@@ -348,7 +338,7 @@
                             <p class="title fs-24">Inclusion & Equity</p>
                         </div>
                         <p class="approach-card-text fs-16">
-                            We work with the organizations shaping today's professionals, and the schools shaping tomorrow's. Every program is contextually designed, facilitator-led, and outcomes-tracked
+                            Creating the conditions where every person can contribute fully. Psychological safety is not a culture initiative, it is a performance one. Organizations with genuinely inclusive, safe team cultures show 3× higher performance on innovation, decision quality, and execution speed.
                         </p>
                     </div>
                 </div>
@@ -361,15 +351,15 @@
     <!-- Approach Section End -->
 
 
-    <!-- What We Do Start -->
+        <!-- What We Do Start -->
     <section class="program-section section ">
 
         <div class=" text-center">
             <span class="light-yellow-badge fs-16" data-aos="fade-up">What We Do</span>
 
-            <h2 class="fs-40 fw-600" data-aos="fade-up" data-aos-delay="100">
+            <p class="fs-40 fw-600" data-aos="fade-up" data-aos-delay="100">
                 Designed for real impact across two ecosystems
-            </h2>
+            </p>
             <p class="w-60 fs-18 fw-400 grey" data-aos="fade-up" data-aos-delay="200">
                 We work with the organizations shaping today's professionals, and the schools shaping tomorrow's.
                 Every program is contextually designed, facilitator-led, and outcomes-tracked
@@ -397,7 +387,7 @@
         <!-- CORPORATE PROGRAMS -->
         <div id="first" class="fade-up">
 
-            <div class="row" style="gap:25px 0px">
+            <div class="row" >
 
                 <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="program-card">
@@ -414,7 +404,7 @@
                                 <span>Designing the Mind </span>
                                 <span>REBT Frameworks </span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
+                            <a href="#" class="explore fs-18 fw-500">Explore <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -434,7 +424,7 @@
                                 <span>How to Lead Others </span>
                                 <span>Conflict Navigation </span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
+                            <a href="#" class="explore fs-18 fw-500">Explore <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -454,7 +444,7 @@
                                 <span>Theory U </span>
                                 <span>Changing World Orders </span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
+                            <a href="#" class="explore fs-18 fw-500">Explore <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -475,13 +465,13 @@
                                 <span>Leadership & Psyche </span>
                                 <span>A Way of Being </span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Explore →</a>
+                            <a href="#" class="explore fs-18 fw-500">Explore <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
 
             </div>
-            
+
 
         </div>
 
@@ -508,7 +498,7 @@
                                 <span>Relationship Skills</span>
                                 <span>Decision-Making</span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Enquire </a>
+                            <a href="#" class="explore fs-18 fw-500"> Enquire  <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -532,7 +522,7 @@
                                 <span>Intensives</span>
                                 <span>Annual Support</span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Enquire →</a>
+                            <a href="#" class="explore fs-18 fw-500"> Enquire  <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -556,7 +546,7 @@
                                 <span>Certification</span>
                                 <span>Resource Library</span>
                             </div>
-                            <a href="#" class="explore fs-18 fw-500">Enquire →</a>
+                            <a href="#" class="explore fs-18 fw-500"> Enquire  <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -571,7 +561,7 @@
 
     <section style="height: 40vh;background-color:#fff"></section>
 
-
+    
     <!-- CTA Section Start -->
     <section class="cta-section section">
         <div class="container w-70">
@@ -586,22 +576,19 @@
 
             <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
                 <a href="#" class="btn-mind-primary text-uppercase btn-md gap-10">
-                    <span class="btn-text">Start a conversation</span>
+                    <span class="btn-text fs-16">Start a conversation</span>
                     <span class="btn-icon">
                         <img src="../assets/images/common/arrow-down-tray.svg">
                     </span>
                 </a>
 
                 <a href="#" class="btn-mind-secondary text-uppercase btn-md" data-aos="fade-up" data-aos-delay="300">
-                    <span class="btn-text">View All Programs</span>
+                    <span class="btn-text fs-16">View All Programs</span>
                 </a>
             </div>
         </div>
     </section>
     <!-- CTA Section End -->
-
-
-
 
     <?php include('footer.php') ?>
 

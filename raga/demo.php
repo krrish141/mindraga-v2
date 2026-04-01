@@ -17,14 +17,14 @@
 
 
 <a href="#" class="btn-raga-primary btn-md">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
   <span class="btn-icon">
     <img src="../assets/images/common/arrow-down-tray.svg">
   </span>
 </a>
 
 <a href="#" class="btn-raga-primary btn-lg">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
   <span class="btn-icon">
     <img src="../assets/images/common/arrow-down-tray.svg">
   </span>
@@ -35,11 +35,11 @@
 
 
 <a href="#" class="btn-raga-secondary btn-md">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
 </a>
 
 <a href="#" class="btn-raga-secondary btn-lg">
-  <span class="btn-text">DOWNLOAD</span>
+  <span class="btn-text fs-16">DOWNLOAD</span>
 </a>
 
 <br>

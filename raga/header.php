@@ -156,7 +156,7 @@
 
 
   <a href="#" class="btn-raga-primary btn-md d-none-md">
-    <span class="btn-text">CONTACT US</span>
+    <span class="btn-text fs-16">CONTACT US</span>
     <span class="btn-icon">
       <img src="../assets/images/common/arrow-down-tray.svg">
     </span>

@@ -23,6 +23,8 @@ body {
   transition: all 0.3s ease;
 }
 
+
+
 /* Circle Icon */
 .btn-mind-primary .btn-icon {
   display: flex;
@@ -41,7 +43,7 @@ body {
 .btn-mind-primary:hover {
   border-radius: 24px;
   border: 1px solid #F1AD00;
-  color: #000;
+  color: #000 !important;
   background: radial-gradient(73.3% 90.61% at 72.2% 11.84%, rgba(255, 155, 63, 0.32) 15.68%, rgba(255, 237, 64, 0.45) 40.7%, rgba(255, 132, 18, 0.32) 74.84%, rgba(255, 237, 64, 0.17) 100%), linear-gradient(0deg, #FFED40 0%, #FFED40 100%), #090920;
   box-shadow: 4px 8px 14px 0 rgba(226, 204, 0, 0.36);
 }
@@ -145,7 +147,6 @@ body {
 .yellow-badge {
   background: #FCFA93;
   padding: 8px 16px;
-  width: 154px;
   text-align: center;
   border-radius: 20px;
   display: inline-block;
@@ -296,85 +297,78 @@ body {
   margin-bottom: 0px;
 }
 
-/* =========================
-LAPTOP / SMALL DESKTOP
-========================= */
-
-@media (max-width:1200px) {
-
-  .hero-left h1 {
-    font-size: 48px;
-  }
-
-  .hero-left p {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  .hero-left {
-    max-width: 60%;
-  }
-
-}
-
 
 /* =========================
-TABLET
+   TABLET (≤ 992px)
 ========================= */
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
 
   .hero {
-    padding: 120px 15px 40px;
+    padding: 120px 30px 60px;
     min-height: auto;
   }
 
   .hero-content {
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
   }
 
   .hero-left {
     max-width: 100%;
   }
 
-  .hero-glass {
-    padding: 28px;
-  }
-
   .hero-left h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 
   .hero-left p {
     width: 100%;
   }
 
+  .hero-glass {
+    padding: 28px;
+  }
+
+  .hero-glass h2 {
+    font-size: 36px;
+    margin-bottom: 32px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+  }
+
+  /* quote below content */
   .hero-quote {
-    align-self: flex-end;
+    max-width: 100%;
+    width: 100%;
   }
 
 }
 
 
 /* =========================
-MOBILE
+   MOBILE (≤ 768px)
 ========================= */
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .hero {
-    padding: 120px 15px 80px;
+    padding: 120px 16px 60px !important;
   }
 
   .hero-glass {
-    padding: 24px;
+    padding: 22px;
+  }
+
+  .hero-glass h2 {
+    font-size: 32px;
   }
 
   .hero-left h1 {
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .hero-left p {
@@ -382,40 +376,20 @@ MOBILE
   }
 
   .hero-buttons {
-    padding: 0;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    margin-top: 24px;
   }
 
   .hero-buttons a {
-    /* width: 100%; */
-    justify-content: center;
-  }
-
-  .hero-quote {
     width: 100%;
-    padding: 20px;
-  }
-
-}
-
-
-/* =========================
-SMALL MOBILE
-========================= */
-
-@media (max-width:480px) {
-
-  .hero-left h1 {
-    font-size: 26px;
-  }
-
-  .hero-left p {
-    font-size: 14px;
+    text-align: center;
   }
 
   .hero-quote {
-    font-size: 13px;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
   }
 
 }
@@ -452,13 +426,15 @@ SMALL MOBILE
 
 /* animation only when class added */
 .connector.animate path {
-  animation: drawConnector 3.5s ease-in-out forwards; /* slower & smoother */
+  animation: drawConnector 3.5s ease-in-out forwards;
+  /* slower & smoother */
 }
 
 @keyframes drawConnector {
   from {
     stroke-dashoffset: 1200;
   }
+
   to {
     stroke-dashoffset: 0;
   }
@@ -511,13 +487,18 @@ SMALL MOBILE
 @media (max-width:768px) {
 
   .section {
-    padding: 60px 20px;
+    padding: 40px 16px;
   }
 
   .stat-number {
     font-size: 80px;
   }
 }
+
+.connector-text {
+  left: 0px;
+}
+
 
 .vuca-section {
   display: flex;
@@ -554,19 +535,23 @@ SMALL MOBILE
 
 
 /* CARD */
-
 .vuca-card {
   position: absolute;
   width: 330px;
   max-width: 100%;
+  min-height: 280px;
+  /* minimum same rahega */
   padding: 30px;
   border-radius: 24px;
   border: 1px solid #000;
   background: #FCFCFC;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
-}
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* CARD POSITIONS */
 
@@ -609,34 +594,58 @@ SMALL MOBILE
 
 @media (max-width:768px) {
 
+
   .vuca-section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    /* IMPORTANT: overflow rokega */
+  }
+
+  .vuca-image {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .connector {
+    display: none;
   }
 
   .vuca-image img {
     width: 100%;
     max-width: 100%;
-    padding: 20px;
+    padding: 0;
+    /* padding hata diya overflow avoid karne ke liye */
   }
 
   .vuca-cards {
     position: static;
     width: 100%;
+    max-width: 100%;
     height: auto;
     margin-left: 0;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    align-items: stretch;
+    /* full width use kare */
+    gap: 16px;
+
+    padding: 0 16px;
+    /* side breathing space */
+    box-sizing: border-box;
   }
 
   .vuca-card {
     position: static;
     width: 100%;
-    max-width: 450px;
+    max-width: 100%;
+    min-height: auto;
+
+    padding: 20px;
+    box-sizing: border-box;
+
     text-align: left;
   }
 
@@ -938,25 +947,22 @@ SMALL MOBILE
 
 /* Reach Section Start */
 .reach-section {
-  background-image:
-    url("../images/mind/yellow-bg.png");
+  background-image: url("../images/mind/yellow-bg.png");
   background-size: cover;
 }
 
 .reach-grid {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* Desktop */
   gap: 32px;
-  flex-wrap: wrap;
 }
-
-/* CARD */
 
 .reach-card {
   background: #fff;
   padding: 35px 30px;
   border-radius: 18px;
-  width: 217px;
+  width: 100%;
 }
 
 .reach-number {
@@ -966,6 +972,46 @@ SMALL MOBILE
 
 .reach-text {
   color: #474C57;
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width:1024px) {
+  .reach-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+}
+
+/* =========================
+   MOBILE → 2 PER ROW
+========================= */
+@media (max-width:768px) {
+  .reach-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* ✅ 2 cards */
+    gap: 16px;
+  }
+
+  .reach-card {
+    padding: 25px 20px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+@media (max-width:480px) {
+  .reach-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* still 2 */
+    gap: 12px;
+  }
+
+  .reach-card {
+    padding: 20px 15px;
+  }
 }
 
 /* Reach Section End */
@@ -1029,6 +1075,9 @@ SMALL MOBILE
 .approach-card-header {
   display: flex;
   align-items: center;
+  /* vertical center */
+  justify-content: center;
+  /* horizontal center */
   gap: 12px;
   transition: all .35s ease;
 }
@@ -1051,6 +1100,24 @@ SMALL MOBILE
 .approach-card-icon img {
   width: 22px;
 }
+
+
+.approach-card-icon-v2 {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all .35s ease;
+}
+
+.approach-card-icon-v2 img {
+  width: 32px;
+}
+
 
 /* title */
 
@@ -1298,7 +1365,7 @@ SMALL MOBILE
 .dot {
   border: none;
   border-top: 2px dotted #5E6573;
-  width: 90%;
+  width: 98%;
   margin: 16px auto;
 }
 
@@ -1316,7 +1383,12 @@ SMALL MOBILE
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* fix */
+
+  height: 100%;
+}
+
+.grey-border {
+  border: 1px solid rgba(60, 64, 73, 0.55) !important;
 }
 
 .program-card-tag {
@@ -1410,7 +1482,9 @@ SMALL MOBILE
   color: #2563EB;
   font-weight: 500;
   transition: color .3s ease, letter-spacing .3s ease;
+  margin-top: auto;
 }
+
 
 .program-card .session {
   line-height: 140%;
@@ -1450,7 +1524,7 @@ SMALL MOBILE
 @media (max-width:768px) {
 
   .program-card {
-    padding: 24px;
+    padding: 12px;
   }
 
   .program-toggle button {
@@ -1477,17 +1551,31 @@ SMALL MOBILE
 @media (max-width:480px) {
 
   .program-card {
-    padding: 20px;
+    padding: 12px;
   }
 
+
   .program-toggle {
-    margin: 20px 0;
+    display: grid;
+    /* flex hatao */
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 per row */
+    gap: 12px;
+  }
+
+  .toggle-btn {
+    width: 100%;
+    /* full occupy kare */
+    height: auto;
+    /* overflow na ho */
+    justify-content: center;
   }
 
   .program-toggle button {
     padding: 6px 12px;
     font-size: 12px;
     margin: 4px;
+    height: 52px;
   }
 
   .program-card h3 {
@@ -1818,14 +1906,14 @@ select.form-control {
   gap: 30px;
   padding: 40px 20px;
   padding-right: 200px;
-  /* 🔥 IMPORTANT */
 }
 
 /* CARD */
 .diag-card {
   width: 395px;
   min-width: 395px;
-  height: 413px;
+  height: 100%;
+  min-height: 413px;
   flex-shrink: 0;
 
   display: flex;
@@ -1901,16 +1989,15 @@ select.form-control {
 
   .diag-container {
     position: relative;
-    /* sticky hata diya */
     height: auto;
+    overflow: hidden;
   }
 
   .diag-scroll {
     display: flex;
     flex-direction: column;
-    /* 🔥 vertical stack */
     gap: 20px;
-    padding: 20px;
+    padding: 20px 0px;
     transform: none !important;
     /* JS transform disable */
   }
@@ -1919,9 +2006,14 @@ select.form-control {
     width: 100%;
     min-width: 100%;
     height: auto;
+    padding: 18px;
   }
 
 }
+
+
+
+
 
 /*  WHAT WE DIAGNOSE End*/
 
@@ -1929,6 +2021,12 @@ select.form-control {
 
 
 /* Our Process Start */
+
+.timeline-wrapper {
+  position: relative;
+  height: 100%;
+}
+
 .timeline {
   position: relative;
   max-width: 100%;
@@ -1948,6 +2046,7 @@ select.form-control {
 
 /* ITEM */
 .timeline-item {
+  position: sticky;
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -1981,6 +2080,7 @@ select.form-control {
 /* PHASE */
 .phase {
   margin-left: 55px;
+  transition: opacity 0.3s ease;
 }
 
 .phase p {
@@ -2004,7 +2104,7 @@ select.form-control {
 
   border-radius: 8px;
   border: 1px solid rgba(37, 99, 235, 0.21);
-  background: rgba(241, 242, 244, 0.68);
+  background: #fff;
 }
 
 
@@ -2033,6 +2133,62 @@ select.form-control {
   font-size: 12px;
   margin: 5px 5px 0 0;
 }
+
+.step1 {
+  top: 12%;
+}
+
+.step2 {
+  top: 24%;
+}
+
+.step3 {
+  top: 36%;
+}
+
+.step4 {
+  top: 48%;
+}
+
+.step5 {
+  top: 60%;
+}
+
+
+.step1 {
+  z-index: 1;
+}
+
+.step2 {
+  z-index: 2;
+}
+
+.step3 {
+  z-index: 3;
+}
+
+.step4 {
+  z-index: 4;
+}
+
+.step5 {
+  z-index: 5;
+}
+
+
+
+
+@media (max-width: 768px) {
+  .timeline-wrapper {
+    height: auto;
+  }
+
+  .timeline-item {
+    position: relative;
+    top: auto;
+  }
+}
+
 
 /* =========================
 TABLET (≤ 992px)
@@ -2085,7 +2241,7 @@ MOBILE (≤ 768px)
 
   .timeline-left .dot {
     left: 6px;
-    top: 8px;
+    top: 0px;
   }
 
   .phase {
@@ -2153,8 +2309,9 @@ SMALL MOBILE (≤ 480px)
 .feature-hero {
   position: relative;
   height: 100%;
-  background: #000;
-  /* background: url("../assets/images/mind/bg-image.png") center/cover no-repeat; */
+  background: linear-gradient(0deg, #25272D 0%, #25272D 100%), linear-gradient(0deg, rgba(89, 89, 89, 0.45) 0%, rgba(89, 89, 89, 0.45) 100%) 50% / cover no-repeat;
+  /* background: #000; */
+  /* background: url("../images/mind/bg-image.png") center/cover no-repeat; */
 }
 
 /* STICKY CENTER TEXT */
@@ -2252,3 +2409,251 @@ SMALL MOBILE (≤ 480px)
 }
 
 /* Feature Section End */
+
+/* Impact Css Start */
+.impact-card {
+  padding: 24px;
+  height: 100%;
+
+  border-radius: 8px;
+  border: 0.8px solid rgba(37, 99, 235, 0.18);
+  background: #FCFCFC;
+}
+
+/* Impact CSS End */
+
+/* Interpersonal Card Start css  */
+.interpersonal-card {
+  border-radius: 16px;
+  border: 1px solid #C1C5CD;
+  background: #FCFCFC;
+  padding: 32px;
+  text-align: start;
+  transition: all 0.3s ease;
+
+  height: 100%;
+  /* ADD */
+  min-height: 260px;
+  /* ADD (same height feel) */
+
+  display: flex;
+  /* ADD */
+  flex-direction: column;
+  /* ADD */
+  justify-content: flex-start;
+}
+
+/* TOP GREY IMAGE AREA */
+.interpersonal-card-img {
+  width: 90px;
+  height: 90px;
+  aspect-ratio: 1/1;
+  border-radius: 48px;
+  background-color: #FFFBD1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 16px;
+  /* spacing */
+}
+
+/* IMAGE */
+.interpersonal-card-img img {
+  width: 42px;
+  height: 42px;
+  aspect-ratio: 1/1;
+}
+
+/* H5 default */
+.interpersonal-card h5 {
+  transition: color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+/* TEXT FIX (IMPORTANT) */
+.interpersonal-card p {
+  flex-grow: 1;
+  /* THIS MAKES HEIGHT EQUAL */
+  margin: 0;
+}
+
+/* HOVER EFFECT */
+.interpersonal-card:hover {
+  border-color: #2563EB;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.interpersonal-card:hover h5 {
+  color: #2563EB;
+}
+
+@media (max-width: 768px) {
+  .interpersonal-card {
+    padding: 18px;
+    min-height: 240px;
+    /* responsive adjust */
+  }
+}
+
+/* Interpersonal Card End Css */
+
+
+/* What We Stand By Section Start*/
+
+.standby-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 452px;
+
+  border: 1px solid #000;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.standby-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* label */
+.standby-card-label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #2564ebeb 100%);
+  padding: 12px 20px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+
+  transition: all .45s ease;
+  overflow: hidden;
+}
+
+/* FIXED HEADER (COLUMN) */
+.standby-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+/* IMPORTANT RESET (THIS FIXES YOUR ISSUE) */
+.standby-card-header .title {
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* text */
+.standby-card-text {
+  opacity: 0;
+  margin-top: 15px;
+  line-height: 1.6;
+  transition: all .35s ease;
+}
+
+/* hover */
+.standby-card:hover .standby-card-label {
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  backdrop-filter: blur(2px);
+}
+
+.standby-card:hover .standby-card-text {
+  opacity: 1;
+}
+
+/* responsive */
+@media (max-width:991px) {
+  .standby-card {
+    height: 380px;
+  }
+}
+
+@media (max-width:768px) {
+  .standby-card {
+    height: 340px;
+  }
+}
+
+/* What We Stand By Section End*/
+
+
+
+
+/* Conversertion CSS Start */
+.conversation-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* CARD BASE */
+.conversation-card {
+  position: relative;
+  margin-bottom: -20px;
+  opacity: 0;
+  text-align: start;
+  /* default smooth animation */
+  transition:
+    transform 1.8s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 1.5s ease;
+}
+
+/* 👉 1 & 3 (bottom-right → grow) */
+.conversation-card.right {
+  transform-origin: bottom right;
+  transform: scale(0.6) translate(60px, 60px);
+}
+
+/* 👉 2 & 4 (bottom-left → grow) */
+.conversation-card.left {
+  transform-origin: bottom left;
+  transform: scale(0.6) translate(-60px, 60px);
+}
+
+/* SHOW STATE */
+.conversation-card.show {
+  transform: scale(1) translate(0, 0);
+  opacity: 1;
+}
+
+/* SVG */
+.bg-svg {
+  width: 100%;
+  display: block;
+}
+
+/* CONTENT */
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/* NUMBER */
+.number {
+  font-size: 152px;
+  font-weight: bold;
+  color: #E0E2E6;
+  margin-right: 20px;
+  line-height: 0.5;
+}
+
+/* Tablet + Mobile (<= 991px) → hide section */
+@media (max-width: 991px) {
+  .conversation-wrapper {
+    display: none;
+  }
+}
+
+/* Conversertion CSS End */
